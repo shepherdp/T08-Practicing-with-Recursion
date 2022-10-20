@@ -30,7 +30,7 @@ def ispalindrome(thestring):
   
 # Function 4: Pretty-print a directory tree on your computer
 def printtree(f, prefix=''):
-    """ Print a formatted version of a portion of the file system.
+    """ Print a formatted version of a portion of the file system, starting at f.
         Function should print out a number of asterisks equal to the recursion
         depth.  When the function reahches a file, it should print the prefix
         and the filename.  If it is a folder, the program should print the folder's
@@ -51,12 +51,14 @@ def printtree(f, prefix=''):
   
 # Helper function for mergesort
 def merge(lista, listb, listc):
-    """ Merges 3 lists, lista, libst
+    """ Merges 3 lists: lista, listb, listc
+        returns a single merged list
     """
     pass
 
 # Function 5: Implement MergeSort, but with a 3-way split instead of 2-way.
 def mergesort(thelist):
-    """ Sorts a list of numbers using a modified MergeSort algorithm,
+    """ Sorts a list of numbers using a modified MergeSort algorithm
+        returns the sorted list
     """
     pass
